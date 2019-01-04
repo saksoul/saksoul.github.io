@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'sinkin_sans200_x_light';
+    src: url('../fonts/SinkinSans-200XLight-webfont.eot');
+    src: url('../fonts/SinkinSans-200XLight-webfontd41d.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SinkinSans-200XLight-webfont.woff') format('woff'),
+         url('../fonts/SinkinSans-200XLight-webfont.ttf') format('truetype'),
+         url('../fonts/SinkinSans-200XLight-webfont.svg#sinkin_sans200_x_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.countdown ul#example {
+  list-style: none;
+  margin: 10px 0px 50px;
+  padding: 0;
+  display: block;
+  text-align: center;
+
+}
+
+.countdown ul#example li { display: inline-block; }
+
+.countdown ul#example li span {
+  font-size: 50px;
+  font-weight: 300;
+
+}
+
+.countdown ul#example li.seperator {
+  font-size: 50px;
+
+  vertical-align: top;
+}
+
+.countdown ul#example li p {
+  color: #a7abb1;
+  font-size: 15px;
+  font-family: 'sinkin_sans200_x_light';
+}
+
+@media screen and (max-width: 850px) {
+
+  .countdown ul#example {
+  list-style: none;
+  margin: 10px 0px 10px;
+  padding: 0;
+  display: block;
+  text-align: center;
+
+}
+  .countdown ul#example li span {
+  font-size: 30px;
+  font-weight: 300;
+
+}
+
+.countdown ul#example li.seperator {
+  font-size: 30px;
+
+  vertical-align: top;
+}
+
+.countdown ul#example li p {
+  color: #a7abb1;
+  font-size: 8px;
+  font-family: 'sinkin_sans200_x_light';
+}
+
+}

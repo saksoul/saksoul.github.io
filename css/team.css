@@ -1,0 +1,71 @@
+#team {
+  background:url(../img/bg.jpg) bottom center no-repeat;
+  width:100%;
+  max-height:auto;
+  min-height:540px;
+  margin-bottom:0px;
+  position:relative;
+  background-size: cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+}
+  
+.rowm{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.team img {
+
+	height: 400px;
+	width: 100%;
+	display: inline-block;
+  margin-left: 0px;
+  padding-left: 0px;
+  /*margin: auto;*/
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+
+.tint {
+   
+    cursor: pointer;
+    /*-webkit-box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+    -moz-box-shadow: rgba(0,0,0,0) 3px 5px 5px;*/
+    /*box-shadow: rgba(0,0,0,.2) 3px 5px 5px;*/
+  }
+
+  .tint:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+   background: rgba(255,0,0, 0.4);
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+  }
+
+   .tint:hover:before {
+    background: none;
+  }
+  
+  .t2:before {
+   background: rgba(231,76,60, 0.5);
+  }
+  
+  .t3:before {
+    background: rgba(255,0,0, 0.4);
+  }
+  
+  .t4:before {
+    background: rgba(231,76,60, 0.5);
+  }
+  
